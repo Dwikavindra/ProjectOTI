@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "249417369890",
+    "project_id": "projectoti",
+    "storage_bucket": "projectoti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249417369890:android:7feb70fcfefbd3d5867d7b",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249417369890-v8e6bdv9u1n1iv5rdhpc22lduh6bppsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPlEmUbjEo7_0G3Ebap3ST8nXPxSQJyWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249417369890-v8e6bdv9u1n1iv5rdhpc22lduh6bppsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

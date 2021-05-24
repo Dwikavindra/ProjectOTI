@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/baseFragment">
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="com.example.projectoti.SignIn"
+        android:label="fragment_base"
+        tools:layout="@layout/fragment_signin" >
+        <action
+            android:id="@+id/action_baseFragment_to_signUp"
+            app:destination="@id/signUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.projectoti.SignUp"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" />
+</navigation>
